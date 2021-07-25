@@ -1,0 +1,14 @@
+create database hospital;
+
+
+use hospital;
+
+
+create table patientreport(patientID varchar(10) primary key,
+symptoms varchar(100), diagnosis varchar(100), medicines varchar(70),
+wardReq varchar(30), typeward varchar(30) );
+
+
+create table patient(patientID varchar(10) primary key,
+name varchar(50), age varchar(10), gender varchar(10), bloodGroup varchar(5),
+contactNumber varchar(20), address varchar(100) );
